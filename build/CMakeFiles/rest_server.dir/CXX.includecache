@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/server.h
+
+/home/sabuj/cpp-micro-service/src/server.cpp
+boost/asio.hpp
+-
+boost/beast.hpp
+-
+iostream
+-
+vector
+-
+server.h
+/home/sabuj/cpp-micro-service/src/server.h
+

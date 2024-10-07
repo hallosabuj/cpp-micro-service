@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,librest_server.so -o librest_server.so CMakeFiles/rest_server.dir/src/server.cpp.o 
